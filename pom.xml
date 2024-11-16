@@ -33,6 +33,11 @@
     </pluginManagement>
     <plugins>
       <plugin>
+        <plugin>
+        <groupId>org.sonarsource.scanner.maven</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>yourPluginVersion</version>
+      </plugin>
         <!-- Build an executable JAR -->
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
